@@ -142,3 +142,63 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants {
+  margin-top: 12px;
+  padding: 10px;
+  background-color: #eef4ff;
+  border-radius: 6px;
+  border: 1px solid #d7e6ff;
+}
+
+.participants-header {
+  font-weight: 600;
+  color: #08306b;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.participants-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.participants-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 0;
+  font-size: 14px;
+  color: #23395b;
+  border-bottom: 1px dashed rgba(35,57,91,0.06);
+}
+
+.participants-list li:last-child {
+  border-bottom: none;
+}
+
+.no-participants {
+  font-style: italic;
+  color: #5b6b7a;
+  font-size: 14px;
+}
+
+.delete-participant {
+  background: transparent;
+  border: none;
+  color: #b00020;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+
+.delete-participant:hover {
+  background: rgba(176,0,32,0.08);
+}
+
+.participant-email {
+  word-break: break-all;
+  margin-right: 8px;
+}
